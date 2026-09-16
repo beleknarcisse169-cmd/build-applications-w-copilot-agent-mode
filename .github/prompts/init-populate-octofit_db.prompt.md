@@ -9,7 +9,7 @@ Set up and populate the data tier for `octofit-tracker/backend`.
 Requirements:
 
 1. Use MongoDB with Mongoose.
-2. Use connection string for local MongoDB on port `27017` and database `octofit_db`.
+2. Create `src/config/database.ts` with a Mongoose connection to local MongoDB on port `27017` and database `octofit_db`.
 3. Create Mongoose models for users, teams, activities, leaderboard, and workouts.
 4. Add a seed script at `src/scripts/seed.ts`.
 5. Include this help/description text in the seed script comments or logs:
