@@ -39,6 +39,7 @@ Use this prompt file:
 Confirm these files include expected content:
 
 - `octofit-tracker/backend/src/config/database.ts` includes `octofit_db` and `mongoose`.
+- The connection uses port `27017` and the database name `octofit_db`.
 - `octofit-tracker/backend/src/scripts/seed.ts` includes a seed command description.
 
 </details>
